@@ -1,2 +1,4 @@
 #Ignore CSV DATA
 CSVData/
+#Ignore .env file
+.env
