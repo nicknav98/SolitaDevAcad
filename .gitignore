@@ -3,3 +3,7 @@ CSVData/
 #Ignore .env file
 .env
 .secrets.py
+#Ignore Pycache and Postgres Data
+__pycache__/
+postgres_data/
+secretsVars.py
