@@ -4,7 +4,7 @@ networks:
     driver: bridge
 
 services:
-  Radiance:
+  SolitaDB:
     image: postgres:15
     ports:
       - '5432:5432'
@@ -16,5 +16,5 @@ services:
       -
 
         type: bind
-        source: ./testData/postgres_data
+        source: ./postgres_data
         target: /var/lib/postgresql/data
