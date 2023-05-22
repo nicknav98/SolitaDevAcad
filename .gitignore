@@ -2,3 +2,4 @@
 CSVData/
 #Ignore .env file
 .env
+.secrets.py
