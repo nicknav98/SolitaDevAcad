@@ -1,0 +1,11 @@
+{
+  "name": "solitadevacad",
+  "version": "1.0.0",
+  "description": "My Personal Repository for the Solita Dev Academy Program",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

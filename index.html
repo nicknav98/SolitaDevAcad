@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>Solita Dev Academy Database</title>
+<meta name="description" content="Landing Page">
+<meta name="keywords" content="Solita Dev Academy>
+</head>
+<body>
+    <! - - Search Bar -->
+    <form> 
+        <input id= "search" type="text" name="search" value="<%= searchTerm %>" placeholder="Search...">
+        <! -- Category Dropdown. Remembers the previous search using EJS -->
+        <select name ="category" onchange="this.form.submit()">
+            <option value="">All Categories</option>
+            <option value="Journeys" <% if (category == "Categoryl") { %> selected <% } %> >Category1</option>
+            <option value="Stations" <% if (category == "Category2") { %> selected <% } %> >Category2</options>
+            </select>
+    </form>
+<script>
+    $( document ).ready.function () {
+    for (var i = 0; i < 100; i++) { 
+    document.getElementById('result').innerHTML 
+    }};
+</script>
+</body>
+</html>

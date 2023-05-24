@@ -7,3 +7,4 @@ CSVData/
 __pycache__/
 postgres_data/
 secretsVars.py
+.ipynb_checkpoints
